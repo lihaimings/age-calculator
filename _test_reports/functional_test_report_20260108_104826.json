@@ -1,0 +1,91 @@
+{
+  "tool_name": "Age Calculator",
+  "summary": {
+    "total": 10,
+    "passed": 9,
+    "failed": 1,
+    "pass_rate": "90.0%",
+    "can_deploy": true,
+    "required_passed": 5,
+    "required_failed": 0
+  },
+  "critical_issues": [],
+  "details": [
+    {
+      "id": "TC001",
+      "name": "ToolComponent 代码质量",
+      "required": true,
+      "passed": true,
+      "error": ""
+    },
+    {
+      "id": "TC002",
+      "name": "必需元素: main_input",
+      "required": true,
+      "passed": true,
+      "error": ""
+    },
+    {
+      "id": "TC003",
+      "name": "必需元素: submit_button",
+      "required": true,
+      "passed": true,
+      "error": ""
+    },
+    {
+      "id": "TC004",
+      "name": "可选元素: result_area",
+      "required": false,
+      "passed": false,
+      "error": "未找到元素: ['[class*=\"result\"], [class*=\"output\"]']"
+    },
+    {
+      "id": "TC005",
+      "name": "可选元素: copy_button",
+      "required": false,
+      "passed": true,
+      "error": ""
+    },
+    {
+      "id": "TC006",
+      "name": "可选元素: reset_button",
+      "required": false,
+      "passed": true,
+      "error": ""
+    },
+    {
+      "id": "TC007",
+      "name": "页面结构完整性",
+      "required": true,
+      "passed": true,
+      "error": ""
+    },
+    {
+      "id": "TC008",
+      "name": "工具标题显示",
+      "required": true,
+      "passed": true,
+      "error": ""
+    },
+    {
+      "id": "TC009",
+      "name": "移动端适配",
+      "required": false,
+      "passed": true,
+      "error": ""
+    },
+    {
+      "id": "TC010",
+      "name": "基本无障碍",
+      "required": false,
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "recommendations": [
+    {
+      "test": "可选元素: result_area",
+      "suggestion": "建议实现: 可选元素: result_area"
+    }
+  ]
+}
